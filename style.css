@@ -1,0 +1,58 @@
+.box1{
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transform: scale(1.1,1.1);
+}
+.rotate{
+    background-color: red;
+    color: aliceblue;
+    transform: rotate(180deg);
+}
+.skew{
+    margin-top: 100px;
+    margin-left:90px;
+    color: blue;
+    border: 2px solid green;
+    border-color: blue;
+    transform: skewX(30deg);
+    transform: skewY(40deg);
+}
+.dR{
+    border: 2px solid blue;
+    transform: rotateY(150deg);
+}
+    transform: rotateX(60deg);
+
+}
+.animation{
+    text-align: center;
+    width: 175px;
+    height: 150px;
+    margin-left: 400px;
+    background-color:goldenrod;
+    animation-name: IIUC;
+    animation-duration: 5.2s;
+}
+@keyframes IIUC {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  p.ta{
+    text-align-last:right;
+  }
+  .trasition {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+  }
+  
+  .trasition:hover {
+    width: 300px;
+    height: 300px;
+  }
